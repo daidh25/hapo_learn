@@ -1,0 +1,35 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~select2/dist/css/select2.css';
+
+// Variables
+@import 'variables';
+
+@import 'homepage/header';
+
+@import 'homepage/footer';
+
+@import 'homepage/banner';
+
+@import 'homepage/main';
+
+@import 'homepage/login';
+
+@import 'homepage/why_hapo';
+
+@import 'homepage/feedback';
+
+@import 'homepage/course';
+
+@import 'homepage/statics';
+
+@import 'homepage/all-course';
+
+@import 'homepage/course-detail';
+
+@import 'homepage/lesson_detail';
+
+@import 'homepage/profile';

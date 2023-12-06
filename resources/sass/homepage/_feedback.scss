@@ -1,0 +1,158 @@
+.feed-back-slogan {
+  text-align: center;
+  font-size: 25px;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.list-feedback {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 200px;
+
+  .owl-dots {
+    display: none;
+  }
+
+  .owl-nav {
+    margin-top: -200px;
+
+    .owl-prev {
+      float : left;
+      position: absolute;
+      left : -50px;
+      width: 30px;
+      height: 30px;
+      background-color: white !important;
+      border-radius: 50%;
+      border:1px solid black !important;
+
+      i {
+        color : black;
+        font-size: 15px;
+      }
+    }
+
+    .owl-next {
+      margin-left: 101%;
+      width: 30px;
+      height: 30px;
+      background-color: white !important;
+      border-radius: 50%;
+      border:1px solid black !important;
+
+      i {
+        color : black;
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+.checked {
+  color: orange;
+}
+
+.content-feed {
+  padding: 50px;
+  border: 0.5px solid #e2e2e2;
+  border-radius: 10px;
+  box-shadow: 1px;
+  height: 170px;
+
+  .line-d {
+    width: 5px;
+    height: 108px;
+    background-color: #d9dadc;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -20px;
+    border-radius: 10px;
+  }
+}
+
+.user-feed {
+  display: flex;
+  margin-top: 20px;
+
+  .avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+  }
+
+  .info {
+    margin-left: 20px;
+
+    .name {
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+    .skill {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 800px) and (min-width: 377px) {
+  .feed-back-slogan {
+    width: 80%;
+  }
+
+  .list-feedback {
+    margin-top: 10px !important;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 376px) {
+  .feed-back {
+    .feed-back-slogan {
+      font-size: 16px;
+      width: 95%;
+    }
+
+    .list-feedback {
+      width: 90% ;
+      margin: 0 auto ;
+      margin-top: 20px ;
+      margin-bottom: 20px ;
+
+      .owl-nav {
+        display: none !important;
+      }
+
+      .owl-dots {
+        display: none;
+      }
+    }
+
+    .content-feed {
+      padding:40px 5px  28px 28px ;
+      height: 170px;
+
+      .line-d {
+        margin-top: 0 ;
+      }
+    }
+  }
+
+  .line-border {
+    width: 80% !important;
+  }
+
+  .view-more-title {
+    a {
+      font-size: 28px;
+    }
+  }
+}

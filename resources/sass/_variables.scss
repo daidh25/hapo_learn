@@ -1,0 +1,53 @@
+// Body
+$body-bg: #f8fafc;
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3184F7;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+$background-color: #e5e5e5;
+$main-color: #b2d235;
+$text-color: #90ab26;
+$layout-color:#505353;
+$mess-color: #F1F0F0;
+$text-color-2 : #7F7F7F;
+$text-color-2 : #7F7F7F;
+$form-color: #B2D235;
+$input-border-color: #c4c4c4;
+$option-color: #E5E6E7;
+$course-detail-color: #F2F2F2;
+$icon-color: #505353;
+$tag-color : #5D8BD0;
+$comment-color: #949292;
+$bar-color: #E1E1E1;
+$tag-line-color: #e4e4e4;
+$tag-line-color: #e4e4e4;
+$email-color: #505353;
+
+@font-face {
+
+  font-family: UTM BryantLG;
+  src: url('/fonts/UTM_BryantLG.ttf');
+}
+
+
+main {
+  min-height: 54vh;
+}
